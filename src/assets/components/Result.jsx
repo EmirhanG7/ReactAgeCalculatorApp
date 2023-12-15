@@ -1,5 +1,4 @@
 export default function Result({ day, month, year, setCurrentTime}) {
-    
 
     return (
         <div className="resultSection">

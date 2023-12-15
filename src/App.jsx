@@ -18,9 +18,7 @@ export default function App() {
         setDay(Math.floor((diffTime % (1000 * 60 * 60 * 24 * 30.44)) / (1000 * 60 * 60 * 24)))
     }, [birthTime])
 
-
     console.log(day, month, year);
-
 
     return (
         <div className="container">
